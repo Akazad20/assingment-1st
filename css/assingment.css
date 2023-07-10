@@ -2,7 +2,11 @@
     margin: 0px;
     padding:0px;
 }
-
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
 /* header part css */
 header{
     background: rgba(229, 84, 115, 0.10);
@@ -11,7 +15,7 @@ header{
 /* home part css */
 .home{
    
-    height: 850px;
+    height: 90vh;
     padding: 30px 30px 0px 150px;
     display: flex;
     justify-content: space-between;
@@ -20,10 +24,39 @@ header{
 .home-text{
     max-width: 585px;
 }
+.home-text h1{
+    color: #272727;
+    font-family: Lato;
+    font-size:45px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+.home-text p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family:Lato;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 16px;
+    text-align: justify;
+
+}
+.btn-prymary{
+    padding:15px 35px;
+    border-radius: 8px;
+    background: #E55473;
+    font-size: 20px;
+    text-transform: uppercase;
+    border:none;
+    transition:0.5s;
+}
+.btn-prymary:hover{
+    background: #333;
+    color:#fff;
+}
 .home-image{
-    width: 635px;
-    padding:10px;
+    width:685px;
+    padding:70px;
 }
 .home-image img{
-    max-width: 100%;
+    max-width:100%;
 }

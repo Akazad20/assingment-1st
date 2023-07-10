@@ -3,3 +3,27 @@
     padding:0px;
 }
 
+/* header part css */
+header{
+    background: rgba(229, 84, 115, 0.10);
+   
+}
+/* home part css */
+.home{
+   
+    height: 850px;
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-text{
+    max-width: 585px;
+}
+.home-image{
+    width: 635px;
+    padding:10px;
+}
+.home-image img{
+    max-width: 100%;
+}

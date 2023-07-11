@@ -214,3 +214,48 @@ header{
     width:100%;
     height: 80%;
 }
+/* leasts styles parts */
+.Latest-Deals{
+    padding:70px 130px 50px 120px;
+    
+}
+.letes-background{
+    background-image: url(../image/Rectangle\ 9.png),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 330px;
+    background-blend-mode: overlay;
+}
+.main-latest{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.letes-title h2 {
+    font-size:35px; 
+    text-align: center;
+    font-family:Lato;
+    color: #272727;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.letes-title h5{
+    font-size: 18px;
+    text-align: center;
+    font-family: Lato;
+    color: rgba(46, 45, 45, 0.6);
+    margin-bottom: 10px;
+}
+.input-items input[type="email"]{
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+    margin-top: 24px;
+    font-size: 20px;
+    font-family: 'Lato';
+    font-weight: 600;
+}

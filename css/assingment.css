@@ -269,6 +269,10 @@ header{
     align-items: center;
     justify-content: center;
 }
+.fotter-title{
+    text-align: center;
+    color:#ddd;
+}
 .fotter-title h1{
     color: #fff;
     text-align: center;

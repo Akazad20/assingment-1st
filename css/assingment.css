@@ -259,4 +259,26 @@ header{
     font-weight: 600;
     text-align: justify;
     
+}/* fotter part */
+.fotter {
+    background: #111010;
+    padding: 130px;
+}
+.fotter-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fotter-title h1{
+    color: #fff;
+    text-align: center;
+}
+.decription{
+   
+    text-align: center;
+    color: #ffff;
+    width: 509px;
+    font-family: 'Lato';
+    line-height: 29px;
+
 }

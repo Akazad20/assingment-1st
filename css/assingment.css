@@ -248,14 +248,15 @@ header{
     color: rgba(46, 45, 45, 0.6);
     margin-bottom: 10px;
 }
-.input-items input[type="email"]{
-    padding: 15px;
+.letes-title input[type="email"]{
+    padding: 15px 100px 15px 24px;
     border: 0;
-    border-radius: 5px;
-    width: 100%;
-    display: block;
+    border-radius: 8px;
+    background: #FFF;
     margin-top: 24px;
     font-size: 20px;
     font-family: 'Lato';
     font-weight: 600;
+    text-align: justify;
+    
 }
